@@ -1,0 +1,11 @@
+<!-- <div>
+    <div class="content-container">
+        <span class="content-span full-width">Are you sure to delete this record?</span>
+    </div>
+    <button mat-flat-button id="yes-btn" [mat-dialog-close]="true">yes</button>
+    <button mat-flat-button id="yes-btn" [mat-dialog-close]="false">no</button>
+</div> -->
+
+<h2>{{ data.message }}</h2>
+<button mat-button (click)="onConfirmClick()" id="yes-btn">Yes</button>
+<button mat-button  id="no-btn" >No</button>

@@ -1,0 +1,11 @@
+#yes-btn{
+    height:50px;
+    width:50%;
+}
+#no-btn{
+    height:50px;
+    width:50%;
+}
+body{
+    border-radius: 5px;
+}

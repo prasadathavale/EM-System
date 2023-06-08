@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="form-view-container">
+        <div class="form-container">
+            <div>
+                <h1>Hey, good to see you</h1>
+            </div>
+            <div>
+                <h3>Lets Sign in you</h3>
+            </div>
+            <div>
+                <form action="" [formGroup]="reactiveFormGroup" (ngSubmit)="onSubmit()">
+                    <div class="form-data">
+                        <input type="text" name="email" id="email" placeholder="Enter email" [ngClass]="email?.touched && !email?.valid ? 'formbold-form-input invalid' : 'formbold-form-input'"
+                            formControlName="email" />
+                    </div>
+                    <div class="form-data">
+                        <input type="password" name="password" id="password" placeholder="Enter password"
+                        [ngClass]="password?.touched && !password?.valid ? 'formbold-form-input invalid' : 'formbold-form-input'" formControlName="password" #pass />
+                            <mat-icon class="material-symbols-outlined" (click)="viewPass(true)" *ngIf="pass.type===passType.PASSWORD">visibility_off</mat-icon>
+                            <mat-icon class="material-symbols-outlined" (click)="viewPass(false)" *ngIf="pass.type===passType.TEXT">visibility</mat-icon>
+                    </div>
+                    <div>
+                        <a href="signUp">Sign-up?</a>
+                    </div>
+                    <div class="form-btn-data">
+                        <button type="submit" [disabled]="!reactiveFormGroup.valid && reactiveFormGroup.touched">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="loginImage" src="../../assets/loginPageImage.jpg" alt="">
+    </div>
+</div>

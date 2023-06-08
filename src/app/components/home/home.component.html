@@ -1,0 +1,36 @@
+<div class="nav">
+  <div>
+    <h1>EM-System</h1>
+  </div>
+  <div class="login-user" >
+     <mat-icon>account_circle</mat-icon>
+     <h3 >{{loginUserName | titleCase}}</h3> 
+  </div>
+  <!-- <mat-icon>notifications_none</mat-icon> -->
+</div>
+<div class="container">
+  <div class="side-menu">
+      <ul>
+          <li mat-button [routerLink]="'employee'" routerLinkActive="active">
+            <mat-icon>home</mat-icon>
+                  <h3>Home</h3>
+          </li>
+          
+          <!-- <li [routerLink]="'devices'">
+                  <h3>Devices</h3>
+          </li> -->
+          <li href="#" mat-button routerLinkActive="active" (click)="logout()">
+            <mat-icon>logout</mat-icon>
+                  <h3>Logout</h3>
+          </li>
+      </ul>
+  </div>
+  <div class="Routing-view">
+      <div class="Routing-inner-view">
+          <router-outlet></router-outlet>
+      </div>
+  </div>
+</div>
+<!-- <div class="mat-user">
+  <h4>User</h4>
+</div> -->

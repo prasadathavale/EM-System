@@ -1,0 +1,43 @@
+<div class="container">
+    <form action="" [formGroup]="reactiveFormGroup">
+        <h1>Sign Up</h1>
+        <div class="form-data">
+            <div>
+                <input type="text" name="firstName" placeholder="First Name" class="formbold-form-input"
+                    formControlName="firstName" />
+            </div>
+            <div>
+                <input type="text" name="lastName" placeholder="Last Name"class="formbold-form-input"
+                    formControlName="lastName" />
+            </div>
+            <div>
+                <input type="email" placeholder="Enter email" class="formbold-form-input" formControlName="email" />
+                <mat-error
+                    *ngIf="reactiveFormGroup.get('email')?.hasError('emailExists') && reactiveFormGroup.get('email')?.touched">
+                    Email already exists. Please enter a different email.
+                </mat-error>
+            </div>
+            <div>
+                <input type="password" name="password" placeholder="Enter password" class="formbold-form-input"
+                    formControlName="password" />
+            </div>
+            <div>
+                <input type="text" name="address" placeholder="Enter Address" class="formbold-form-input"
+                    formControlName="address" />
+            </div>
+            <div>
+                <input type="date" class="formbold-form-input" name="dob" placeholder="Enter Date-Of-Birth"
+                    class="formbold-form-input" formControlName="dob" />
+            </div>
+            <div class="form-btn-data">
+                <button [disabled]="emailExists" (click)="addManager()">Sign-Up</button>
+            </div>
+        </div>
+        <div class="form-data-link">
+            <a href="/login">Go back to login</a>
+        </div>
+    </form>
+</div>
+<!-- <div class="img-view-container">
+        <img src="../../assets/loginImage.jpg" alt="">
+    </div> -->

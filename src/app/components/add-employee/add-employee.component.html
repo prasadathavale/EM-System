@@ -1,0 +1,69 @@
+<h1 mat-dialog-title>Add Employee Details</h1>
+<div mat-dialog-content>
+    <form action="" [formGroup]="reactiveFormGroup">
+        <mat-form-field appearance="outline">
+            <mat-label>Enter First Name</mat-label>
+            <input matInput formControlName="firstName" placeholder="First Name">
+            <small *ngIf="reactiveFormGroup.get('firstName')?.errors?.['noSpaceAllowed']">
+                please don't enter blank space!
+            </small>
+            <small *ngIf="reactiveFormGroup.get('firstName')?.errors?.['numberNotAllowed']">
+                please don't enter a number
+            </small>
+
+            <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+            <!-- <mat-hint>Hint</mat-hint> -->
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Enter Last Name</mat-label>
+            <input matInput formControlName="lastName" placeholder="Last Name">
+            <small *ngIf="reactiveFormGroup.get('lastName')?.errors?.['noSpaceAllowed']">
+                please don't enter blank space!
+            </small>
+            <small *ngIf="reactiveFormGroup.get('lastName')?.errors?.['numberNotAllowed']">
+                please don't enter a number
+            </small>
+            <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+            <!-- <mat-hint>Hint</mat-hint> -->
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Enter address</mat-label>
+            <input matInput formControlName="address" placeholder="Address">
+            <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> 
+             <mat-hint>Hint</mat-hint> -->
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Date of birth</mat-label>
+            <input matInput formControlName="dob"  [matDatepicker]="picker">
+            <!-- <mat-hint>MM/DD/YYYY</mat-hint> -->
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker startView="year"></mat-datepicker>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Enter mobile</mat-label>
+            <input matInput type="number"
+            formControlName="mobile" 
+            placeholder="Mobile Number">
+            <!-- <small *ngIf="'mobile.valid && mobile.touched'">
+                allow only 10 digit number!
+            </small> -->
+            <!-- <span *ngIf="reactiveFormGroup.controls.mobile.errors.pattern">Mobile number is invalid.</span> -->
+            <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+            <!-- <mat-hint>Hint</mat-hint> -->
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Enter city</mat-label>
+            <input matInput formControlName="city" placeholder="City">
+            <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+            <!-- <mat-hint>Hint</mat-hint> -->
+        </mat-form-field>
+        <div class="mat-btn" mat-dialog-action [align]="'end'">
+            <button mat-raised-button  mat-dialog-close>close</button>
+            <button style="margin-left: 8px;" mat-raised-button
+                (click)="addEmployee()">{{action}}</button>
+        </div>
+    </form>
+</div>

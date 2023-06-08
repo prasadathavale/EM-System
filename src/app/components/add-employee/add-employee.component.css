@@ -1,0 +1,66 @@
+.mat-form-field {
+  width: 100%;
+}
+
+/* .mat-form-field-flex{
+    width: 160%;
+} */
+small {
+  color: red;
+}
+
+.mat-raised-button{
+  background:white;
+  color: #17b3bb;
+  border:1px solid #17b3bb;
+  height: 40px;
+  width: 105px;
+}
+.mat-raised-button:hover{
+  background:#17b3bb;
+  color: white;
+}
+.mat-btn{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+/* .mat-form-field .mat-form-field-flex {
+height: 10px;  }
+ */
+/* .mat-form-field .matDatepicker{
+    height: 20px;
+} */
+
+/* mat-form-field .mat-datepicker-toggle {
+    margin-left: 8px;
+    float: right;
+  } */
+
+/* .mat-datepicker-toggle {
+    height: 40px; 
+    position: relative;
+  } */
+
+/* .mat-datepicker-toggle .mat-icon-button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  } */
+
+/* .mat-form-field-flex{
+    height: 67px;
+  } */
+
+.mat-datepicker-toggle {
+  float: right;
+  margin-top: -34px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

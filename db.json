@@ -1,0 +1,150 @@
+{
+  "employeeList": [
+    {
+      "firstName": "Namrata",
+      "lastName": "Humbe",
+      "address": "Parabhani, MH",
+      "dob": "2010-07-01T18:30:00.000Z",
+      "mobile": "7789654321",
+      "city": "Parabhani",
+      "id": 5
+    },
+    {
+      "firstName": "Siddhesh",
+      "lastName": "Dongare",
+      "address": "Narayangaon, MH",
+      "dob": "1998-03-04T18:30:00.000Z",
+      "mobile": "8997456123",
+      "city": "Narayangaon",
+      "id": 6
+    },
+    {
+      "firstName": "Prasad",
+      "lastName": "Athavale",
+      "address": "Pune, MH",
+      "dob": "2021-01-04T18:30:00.000Z",
+      "mobile": "9554789321",
+      "city": "Pune",
+      "id": 7
+    },
+    {
+      "firstName": "Omkar",
+      "lastName": "Revankar",
+      "address": "Sangli, MH",
+      "dob": "2023-07-06T18:30:00.000Z",
+      "mobile": "9887654123",
+      "city": "Sangli",
+      "id": 8
+    },
+    {
+      "firstName": "Ganesh",
+      "lastName": "Gawali",
+      "address": "Nagpur, MH",
+      "dob": "2023-04-11T18:30:00.000Z",
+      "mobile": "9788456123",
+      "city": "Nagpur",
+      "id": 10
+    },
+    {
+      "firstName": "Shiv",
+      "lastName": "Kouselye",
+      "address": "Pune, MH",
+      "dob": "2023-02-06T18:30:00.000Z",
+      "mobile": 9922200550,
+      "city": "Pune",
+      "id": 11
+    },
+    {
+      "firstName": "Sunit",
+      "lastName": "Kale",
+      "address": "PCMC, MH",
+      "dob": "2023-06-07T18:30:00.000Z",
+      "mobile": 9788456123,
+      "city": "Pimpri-chinchwad",
+      "id": 12
+    },
+    {
+      "firstName": "Nitin",
+      "lastName": "Kolekar",
+      "address": "Kolhapur, MH",
+      "dob": "2023-11-14T18:30:00.000Z",
+      "mobile": 7889456123,
+      "city": "Kolhapur",
+      "id": 13
+    },
+    {
+      "firstName": "Sneha",
+      "lastName": "Tarnekar",
+      "address": "Nagpur, MH",
+      "dob": "2023-03-15T18:30:00.000Z",
+      "mobile": 7558946512,
+      "city": "Nagpur",
+      "id": 14
+    },
+    {
+      "firstName": "rupesh",
+      "lastName": "dafare",
+      "address": "nagpure, MH",
+      "dob": "2023-03-16T18:30:00.000Z",
+      "mobile": 9887654123,
+      "city": "nagpur",
+      "id": 18
+    }
+  ],
+  "managerList": [
+    {
+      "email": "prasad@gmail.com",
+      "firstName": "prasad",
+      "lastName": "Athavale",
+      "password": "12345",
+      "address": "pune",
+      "dob": "2012-12-12",
+      "id": 1
+    },
+    {
+      "email": "omkar@gmail.com",
+      "firstName": "omkar",
+      "lastName": "revankar",
+      "password": "12345",
+      "address": "Sangli",
+      "dob": "2019-02-01",
+      "id": 2
+    },
+    {
+      "email": "abc@gmail.com",
+      "firstName": "abc",
+      "lastName": "abc",
+      "password": "12345",
+      "address": "abc",
+      "dob": "2001-01-01",
+      "id": 3
+    },
+    {
+      "email": "hello@gmail.com",
+      "firstName": "hello",
+      "lastName": "hello",
+      "password": "12345",
+      "address": "pune",
+      "dob": "2028-11-08",
+      "id": 4
+    },
+    {
+      "email": "saurabh@gmail.com",
+      "firstName": "saurabh",
+      "lastName": "malve",
+      "password": "12345",
+      "address": "pune",
+      "dob": "2001-01-01",
+      "id": 5
+    },
+    {
+      "email": "abcd@gmail.com",
+      "firstName": "abc",
+      "lastName": "abc",
+      "password": "12345",
+      "address": "Pune, MH",
+      "dob": "2014-02-21",
+      "id": 6
+    }
+  ]
+}

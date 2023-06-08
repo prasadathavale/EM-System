@@ -1,0 +1,178 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/signImage.jpg);
+    width: 100vw;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+button {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    height: 40px;
+    background-color: #00abc6;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #49bfd1
+}
+
+form h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+::placeholder {
+    color: white;
+}
+
+form h1 {
+    color: white;
+}
+
+.form-btn-data {
+    margin: 20px;
+}
+
+.form-data-link a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.formbold-form-input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+}
+
+small {
+    color: red;
+}
+
+/* .container{
+    display: grid;
+    grid-template-columns: 42% 58%;
+}
+
+.container img{
+    height: auto;
+    width: 100%;
+}
+
+
+.formbold-form-input {
+    width: 55%;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #536387;
+    outline: none;
+    resize: none;
+}
+
+.formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+} */
+
+/* .form-view-container{
+
+    display: flex;
+    justify-content: center; */
+/* align-items: center; */
+/* width: 100%;
+    margin-top: 200px; */
+
+
+/* display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 60px; */
+/* } */
+
+/* .form-container{ */
+/* height: 430px;
+    width: 85%;
+    background: rgb(202 210 217 / 35%);
+    border-radius: 20px; */
+/* line-height: 5; */
+/* border: 1px solid black; */
+/* box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5); */
+/* border-radius: 5px;
+    width: 70%;
+    height: 70%; */
+/* background: radial-gradient(#256a6a, transparent); */
+/* } */
+
+
+/* .form-data{ */
+/* margin: 45px 0 0 80px;    margin: 40px 80px;
+    display: flex;
+    justify-content: space-between; */
+/* margin-left: 130px;
+
+} */
+
+
+/* .form-btn-data{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    height: auto; ;
+}  */
+
+/* .form-view-container h1{
+   text-align: center; 
+   padding: 0;
+   margin: 0;
+} */
+
+/* .form-data-link{
+    float: right;
+} */
+/* 
+.form-container a{
+    display: flex;
+    justify-content: end;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: rgb(38,39,44);
+
+} */
+
+/* .img-view-container img{
+    opacity: 0.8;
+} */
